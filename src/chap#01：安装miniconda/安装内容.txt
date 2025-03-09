@@ -1,0 +1,17 @@
+安装miniconda
+
+运行：
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+
+书籍环境：
+conda create -y -n pydata-book python=3.10
+
+激活环境：
+conda activate pydata-book
+
+安装一些包：
+conda install -y pandas jupyter matplotlib
+
+
+另外还有一些，之后进行安装
